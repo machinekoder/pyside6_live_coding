@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
 import pytest
 import shutil
 import os
-from qtpy.QtCore import QUrl
-from qtpy.QtTest import QSignalSpy
+from PySide6.QtCore import QUrl
+from PySide6.QtTest import QSignalSpy
 
 
 SIGNAL_WAIT_TIMEOUT = 50

@@ -24,7 +24,7 @@ Item {
 
       TextInput {
         id: in1Input
-        text: "5"
+        text: "50"
       }
 
       Text {

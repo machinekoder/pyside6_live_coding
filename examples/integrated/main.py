@@ -1,14 +1,13 @@
-# -*- coding: utf-8 -*-
 import os
 import sys
 import signal
 import argparse
 
-from qtpy.QtGui import QGuiApplication
-from qtpy.QtCore import QObject, QTimer
-from qtpy.QtQml import QQmlApplicationEngine
+from PySide6.QtGui import QGuiApplication
+from PySide6.QtCore import QObject, QTimer
+from PySide6.QtQml import QQmlApplicationEngine
 
-from livecoding import start_livecoding_gui
+from pyside6_live_coding import start_livecoding_gui
 
 PROJECT_PATH = os.path.dirname(os.path.realpath(__name__))
 

@@ -1,10 +1,9 @@
-# -*- coding: utf-8 -*-
 import os
 
-from qtpy.QtQuick import QQuickItem
-from qtpy.QtQml import QQmlEngine
-from qtpy.QtCore import Slot, QUrl
-from qtpy.QtGui import QDesktopServices
+from PySide6.QtQuick import QQuickItem
+from PySide6.QtQml import QQmlEngine
+from PySide6.QtCore import Slot, QUrl
+from PySide6.QtGui import QDesktopServices
 
 
 class LiveCodingHelper(QQuickItem):

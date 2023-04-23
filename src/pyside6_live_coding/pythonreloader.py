@@ -1,10 +1,9 @@
-# -*- coding: utf-8 -*-
 import os
 import sys
 import signal
 import inspect
 
-from qtpy.QtCore import QObject, Slot
+from PySide6.QtCore import QObject, Slot
 
 
 class PythonReloader(QObject):

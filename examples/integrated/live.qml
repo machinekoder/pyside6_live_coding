@@ -2,7 +2,7 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 import QtQuick.Window
-import Qt.labs.settings
+import QtCore
 import livecoding
 
 ApplicationWindow {
@@ -11,7 +11,7 @@ ApplicationWindow {
   title: qsTr("My AppLive Coding")
   width: 1024
   height: 800
-  flags: liveCoding.flags 
+  flags: liveCoding.flags
   visibility: liveCoding.visibility
 
   Component.onCompleted: {

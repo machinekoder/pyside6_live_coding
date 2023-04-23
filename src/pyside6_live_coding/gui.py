@@ -1,13 +1,12 @@
-# -*- coding: utf-8 -*-
 import sys
 import os
 import signal
 import traceback
 
-from qtpy.QtCore import QTimer, QObject, QUrl
-from qtpy.QtGui import QIcon
-from qtpy.QtWidgets import QApplication
-from qtpy.QtQml import QQmlApplicationEngine
+from PySide6.QtCore import QTimer, QObject, QUrl
+from PySide6.QtGui import QIcon
+from PySide6.QtWidgets import QApplication
+from PySide6.QtQml import QQmlApplicationEngine
 
 from .register_qml_types import register_types
 from .pythonreloader import PythonReloader

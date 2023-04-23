@@ -1,4 +1,4 @@
-from qtpy.QtCore import QObject, Signal, Property
+from PySide6.QtCore import QObject, Signal, Property
 
 
 class Calculator(QObject):

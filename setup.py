@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from setuptools import setup
 
 # read the contents of your README file
@@ -9,11 +8,11 @@ with open(path.join(this_directory, 'README.md')) as f:
     long_description = f.read()
 
 setup(
-    name='python-qt-live-coding',
-    version='0.4.2',
-    packages=['livecoding'],
+    name='pyside6-live-coding',
+    version='1.0.0',
+    packages=['pyside6_live_coding'],
     package_dir={'': 'src'},
-    url='https://github.com/machinekoder/python-qt-live-coding/',
+    url='https://github.com/machinekoder/pyside6-live-coding/',
     license='MIT',
     author='Alexander Rössler',
     author_email='alex@machinekoder.com',
@@ -31,6 +30,6 @@ setup(
             'pre-commit',
         ]
     },
-    scripts=['bin/python_qt_live_coding'],
+    scripts=['bin/pyside6-live-coding'],
     include_package_data=True,
 )

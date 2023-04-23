@@ -1,4 +1,4 @@
-from qtpy.QtQml import qmlRegisterType
+from PySide6.QtQml import qmlRegisterType
 
 from .calculator import Calculator
 

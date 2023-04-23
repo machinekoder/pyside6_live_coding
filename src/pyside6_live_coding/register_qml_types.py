@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-from qtpy.QtQml import qmlRegisterType
+from PySide6.QtQml import qmlRegisterType
 
 from .projectbrowser import ProjectBrowser
 from .filewatcher import FileWatcher

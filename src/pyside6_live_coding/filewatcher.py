@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 import os
 from fnmatch import fnmatch
 
-from qtpy.QtCore import (
+from PySide6.QtCore import (
     QObject,
     Property,
     Signal,

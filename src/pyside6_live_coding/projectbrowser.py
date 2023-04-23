@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 import os
 
-from qtpy.QtCore import QObject, Property, Signal, QUrl, QDir, Slot
-from qtpy.QtQml import QJSValue
+from PySide6.QtCore import QObject, Property, Signal, QUrl, QDir, Slot
+from PySide6.QtQml import QJSValue
 
 
 class ProjectBrowser(QObject):
